@@ -3,14 +3,14 @@
 *NOTICE: This is an example repository containing known vulnerabilities, 
 only to be used in the preparation and testing for the AI Cyber Challenge Final Competition.*
 
-This is not a legitimate fork or copy of libpng, please 
+This is not a legitimate fork or copy of libpng. Please 
 refer to https://github.com/pnggroup/libpng for the actual repository.
 
 This repository is a sample to help verify AIxCC AFC format compatibility.
 
-The AIxCC AFC [generate-challenge-task](https://github.com/aixcc-finals/generate-challenge-task) helper script 
+The AIxCC AFC [generate-challenge-task](https://github.com/AIxCyberChallenge/example-crs-architecture/blob/main/generate-challenge-task/generate-challenge-task.sh) helper script 
 may be used to take oss-fuzz-compatible repositories and create AFC-formatted challenge tasks from them. 
-The script can also directly task a competitor CRS with the generated challenge tasks.
+The script can also directly task a competitor Cyber Reasoning System (CRS) with the generated challenge tasks.
 
 This example provides a reliable and quick crash for competitor use. Competitors are encouraged to use 
 the challenge generation script on public oss-fuzz-compatible repositories for further testing. 
